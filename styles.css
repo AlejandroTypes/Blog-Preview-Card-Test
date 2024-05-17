@@ -1,0 +1,77 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree";
+}
+#main-box{
+    background-color:hsl(0, 0%, 100%);
+    border-style: solid;
+    border-color: hsl(0, 0%, 7%);
+    box-shadow: 0.5em 0.5em;
+    border-width: 0.1em;
+    width: 21.6em;
+    height: 30.5em;
+    border-radius: 1.3em;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#img-main-pic{
+    margin: 0.5em 0em 0em 0.2em;
+    border-radius: 0.8em;
+}
+#small-yellow-box{
+    background-color: hsl(47, 88%, 63%);
+    text-align: center;
+    margin: 1.5em 0em 0em 0.3em;
+    padding: 0.4em 0.3em 0em 0.3em;
+    width: 5em;
+    height: 1.5em;
+    border-radius: 0.3em;
+    font-size: 0.9em;
+    font-weight: 800;
+}
+#published-date{
+    text-align: left;
+    margin: 1em 0em 0em 0.3em;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+#big-text{
+    text-align: left;
+    padding: 0em 0.3em 0.1em 0.3em;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+#big-text:hover{
+    color: hsl(47, 88%, 63%);
+}
+#big-text{
+    text-align: left;
+    padding: 0em 0.3em 0.1em 0.3em;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+#small-text{
+    color: gray;
+    text-align: left;
+    font-size: 1em;
+    margin: 1em 0em 0em 0.3em;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+#users{
+    display: flex;
+    margin: 1.5em 0em 0em 0.3em;
+}
+#img-avatar{
+    width: 2em;
+    height: 2em;
+    padding: 0 0.5em 0 0;
+}
+#user-name{
+    font-size: 0.9em;
+    font-weight: 800;
+    margin: 0.5em 0em 0em 0.3em;
+}
